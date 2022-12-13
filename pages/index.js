@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Banner from './banner/banner'
+import NextTrain from './NextRail/nextTrain'
 
 export default function Home() {
   Head('Dhaka Metro')
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner></Banner>
+      <NextTrain></NextTrain>
     </div>
   )
 }
