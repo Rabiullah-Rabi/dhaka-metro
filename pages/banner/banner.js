@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
 
-const Index = () => {
+const Banner = () => {
     const [value, onChange] = useState('10:00');
     Head('Dhaka Metro')
     return (
@@ -106,4 +106,4 @@ const Index = () => {
     );
 };
 
-export default Index;
+export default Banner;
